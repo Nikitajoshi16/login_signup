@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/backgroudchat"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:text="hello"
+        android:textColor="#D5D3D3"
+        android:textSize="15sp">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/leftlay"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@color/bluegray"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:id="@+id/imageleft"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="3dp"
+            android:text="hello"
+            android:visibility="gone"
+            android:textColor="#D5D3D3"
+            android:textSize="15sp">
+
+
+        </TextView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

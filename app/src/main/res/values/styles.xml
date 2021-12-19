@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bluegray</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle" > @style/Iconoverflow</item>
+
+    </style>
+    <style name="Iconoverflow" parent = "Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@android:color/darker_gray</item>
+    </style>
+
+</resources>
